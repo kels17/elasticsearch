@@ -150,9 +150,12 @@ The `weight` score allows you to multiply the score by the provided
 specific queries gets normalized, while for this score function it does
 not.
 
+Weight is a function which takes in parameters that are of type float. 
+Therefore, number is of type float. 
+
 [source,js]
 --------------------------------------------------
-"weight" : number
+"weight" : number 
 --------------------------------------------------
 
 [[function-random]]
